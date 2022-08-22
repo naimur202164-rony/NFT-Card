@@ -57,6 +57,7 @@ body {
 
 /* card-contents */
 .card-content .card-eth {
+  padding: 1rem 0;
   display: flex;
   justify-content: space-between;
 }
@@ -84,8 +85,24 @@ body {
 /* Card-footer */
 
 .card-footer {
+  padding: 1rem 0;
   display: flex;
   justify-content: flex-start;
   gap: 1.5rem;
   align-items: center;
+}
+
+.card-footer img {
+  border: 0.2rem solid var(--white--color);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.card-footer p {
+  color: var(--text-color);
+  font-size: 1.7rem;
+}
+.card-footer span {
+  color: var(--white--color);
 }

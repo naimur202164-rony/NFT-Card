@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --darkblue-color: #0d192b;
+  --light-blue-color: #14253d;
+}
+
+body {
+  background: var(--darkblue-color);
+}
+
+/* Card */
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin-top: 10rem;
+}
+
+.card .card-container {
+  border-radius: 0.5rem;
+  background: var(--light-blue-color);
+  padding: 1rem;
+}
+
+.card .card-container .card-heading img {
+  border-radius: 0.5rem;
+}

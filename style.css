@@ -65,6 +65,7 @@ body {
   width: 100%;
   align-items: center;
   display: flex;
+  gap: 1rem;
 }
 
 .card-content .right {
@@ -72,4 +73,5 @@ body {
   align-items: center;
   justify-content: flex-end;
   display: flex;
+  gap: 1rem;
 }

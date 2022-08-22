@@ -6,6 +6,9 @@
 :root {
   --darkblue-color: #0d192b;
   --light-blue-color: #14253d;
+  --white--color: #fff;
+  --white--hover: #00bcca;
+  --text-color: #a1a8ae;
 }
 
 body {
@@ -30,4 +33,10 @@ body {
 
 .card .card-container .card-heading img {
   border-radius: 0.5rem;
+}
+
+/* Card-content */
+
+.card-content .card-article h2 {
+  color: #fff;
 }

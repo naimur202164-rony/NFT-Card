@@ -50,3 +50,22 @@ body {
 .card-content .card-article h2:hover {
   color: var(--white--hover);
 }
+
+/* card-contents */
+.card-content .card-eth {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-content .left {
+  width: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.card-content .right {
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  display: flex;
+}

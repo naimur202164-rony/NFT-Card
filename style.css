@@ -36,13 +36,17 @@ body {
 }
 
 /* Card-content */
-
+.card-content {
+  padding: 1rem 0;
+}
 .card-content .card-article h2 {
+  padding: 0.5rem 0;
   color: var(--white--color);
   font-weight: bold;
   font-size: 2.1rem;
 }
 .card-content .card-article p {
+  padding: 0.5rem 0;
   color: var(--text-color);
   font-weight: bold;
   font-size: 1.1rem;

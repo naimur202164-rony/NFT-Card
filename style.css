@@ -67,6 +67,12 @@ body {
   display: flex;
   gap: 1rem;
 }
+.card-content .left p,
+.right p {
+  color: var(--white--hover);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
 
 .card-content .right {
   width: 100%;
@@ -74,4 +80,12 @@ body {
   justify-content: flex-end;
   display: flex;
   gap: 1rem;
+}
+/* Card-footer */
+
+.card-footer {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  align-items: center;
 }
